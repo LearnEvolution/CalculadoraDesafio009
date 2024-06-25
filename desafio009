@@ -1,0 +1,13 @@
+# faça um programa que leia um numero qualquer 
+# inteiro e mostre na tela a sua tabuada
+
+
+x = int(input("DIgite um numero : "))
+
+for y in range(11):
+   
+    z = (y * x)
+    print(" {} x {:2} = {:2}".format(x , y , z))
+    
+    
+    
